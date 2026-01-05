@@ -4,11 +4,6 @@
   "installCommand": "npm install --legacy-peer-deps",
   "buildCommand": "npm run build:frontend",
   "outputDirectory": "frontend/dist/frontend",
-  "functions": {
-    "api/**": {
-      "runtime": "nodejs22.x"
-    }
-  },
   "routes": [
     { "src": "/(.*)", "dest": "/index.html" }
   ]
